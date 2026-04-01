@@ -33,14 +33,14 @@
           <li><a href="#">Pune, Maharashtra</a></li>
           <li><a href="#">9 AM – 11 PM Daily</a></li>
         </ul>
-        <div class="footer-delivery">
+        <!-- <div class="footer-delivery">
           <h5 style="margin-top:20px">Order Via</h5>
           <div class="delivery-chips">
             <span class="chip">🟠 Swiggy</span>
             <span class="chip">🔴 Zomato</span>
             <span class="chip">📍 Pune Eats</span>
           </div>
-        </div>
+        </div> -->
       </div>
 
     </div>

@@ -22,10 +22,7 @@
         <div class="qr-card">
           <h4 class="qr-title">💳 Pay via UPI</h4>
           <div class="qr-frame">
-            <!--
-              REPLACE WITH YOUR REAL UPI QR:
-              <img src="/images/upi-qr.png" alt="UPI QR Code" />
-            -->
+            <img style="width: 140px;height: 140px;" :src="qrUrl" alt="UPI QR Code"/>
             <div class="qr-placeholder">
               <div class="qr-pattern">
                 <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
@@ -69,8 +66,7 @@
               </div>
             </div>
           </div>
-          <p class="qr-upi">cafeeatitude@upi</p>
-          <p class="qr-note">Replace with your actual UPI QR image</p>
+          <p class="qr-upi">0791767A0216055.bqr@kotak</p>
         </div>
       </div>
 
@@ -85,6 +81,15 @@
 
 <script setup>
 import OrderForm from './OrderForm.vue'
+import { computed } from 'vue'
+const upiId = '0791767A0216055.bqr@kotak' // 👈 change dynamically if needed
+const name = 'Cafe Eatitude'
+
+const qrUrl = computed(() => {
+  const upiLink = `upi://pay?pa=${upiId}&pn=${encodeURIComponent(name)}&cu=INR`
+  return `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(upiLink)}`
+})
+
 
 const contactItems = [
   {

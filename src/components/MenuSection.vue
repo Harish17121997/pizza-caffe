@@ -189,13 +189,12 @@ function badgeLabel(type) {
   flex: 1;
 }
 .card-price {
-  font-family: var(--font-display);
   font-size: 1.2rem;
   font-weight: 900;
   color: var(--gold);
   white-space: nowrap;
 }
-.rupee { font-size: 0.78rem; vertical-align: super; }
+/* .rupee { font-size: 0.78rem; vertical-align: super; } */
 .card-desc { font-size: 0.77rem; color: var(--cream-dim); line-height: 1.5; }
 
 .note {
