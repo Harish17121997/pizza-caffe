@@ -83,7 +83,7 @@ function scrollTo(selector) {
 .float {
   position: absolute;
   font-size: 3rem;
-  opacity: 0.06;
+  opacity: 0.09;
   pointer-events: none;
   animation: floatAnim 8s ease-in-out infinite;
 }

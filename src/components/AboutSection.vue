@@ -5,16 +5,15 @@
       <!-- Image Column -->
       <div class="img-col fade-up">
         <div class="img-frame">
-          <!--
-            TO ADD YOUR IMAGE:
-            Replace the placeholder div below with:
-            <img src="/images/cafe-interior.jpg" alt="Cafe Eatitude" />
-          -->
-          <div class="img-placeholder">
+          
+
+            <img src="/images/banner.png" alt="Cafe Eatitude" />
+         
+          <!-- <div class="img-placeholder">
             <span class="placeholder-icon">🏪</span>
             <p class="placeholder-text">Add your cafe photo here</p>
             <code class="placeholder-code">/public/images/your-photo.jpg</code>
-          </div>
+          </div> -->
         </div>
         <div class="img-badge">
           <span class="badge-big">100%</span>

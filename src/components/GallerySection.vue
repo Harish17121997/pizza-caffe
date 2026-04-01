@@ -32,12 +32,6 @@
           </div>
         </div>
       </div>
-
-      <p class="gallery-hint fade-up">
-        💡 Add your food photos by replacing each placeholder with
-        <code>&lt;img src="/images/your-photo.jpg"&gt;</code>
-      </p>
-
     </div>
   </section>
 </template>

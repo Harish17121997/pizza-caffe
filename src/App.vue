@@ -13,7 +13,7 @@
       <AboutSection />
       <MenuSection />
       <GallerySection />
-      <DeliveryBanner />
+      <!-- <DeliveryBanner /> -->
       <ContactSection />
       <MapSection />
     </main>

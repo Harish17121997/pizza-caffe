@@ -17,17 +17,13 @@
           Get it from: Google Maps → Share → Embed a map → Copy HTML → grab the src
         -->
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242243.1049568523!2d73.72168145!3d18.5245649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000"
-          allowfullscreen=""
-          loading="lazy"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d472.74655003398146!2d73.76734075528658!3d18.575282994355877!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b94912e5bb33%3A0x95d17151b2d3740b!2sCafe%20Eatitude!5e0!3m2!1sen!2sus!4v1775066402280!5m2!1sen!2sus" 
+          width="600" height="450" 
+          style="border:0;" allowfullscreen="" loading="lazy" 
           referrerpolicy="no-referrer-when-downgrade"
           title="Cafe Eatitude on Google Maps"
         />
       </div>
-      <p class="map-hint fade-up">
-        💡 Replace the iframe <code>src</code> with your exact Google Maps embed URL for precise pin location
-      </p>
-
     </div>
   </section>
 </template>

@@ -27,7 +27,7 @@
         </div>
       </div>
 
-      <div class="form-group">
+      <!-- <div class="form-group">
         <label class="form-label">Order Type *</label>
         <select v-model="form.orderType" class="form-select">
           <option value="">Select type...</option>
@@ -35,7 +35,7 @@
           <option>Takeaway</option>
           <option>Delivery</option>
         </select>
-      </div>
+      </div> -->
 
       <div class="form-group">
         <label class="form-label">Your Order / Items *</label>
@@ -46,7 +46,7 @@
         />
       </div>
 
-      <div class="form-group">
+      <!-- <div class="form-group">
         <label class="form-label">Delivery Address</label>
         <input
           v-model="form.address"
@@ -54,7 +54,7 @@
           type="text"
           placeholder="Street, Area, Pune (for delivery only)"
         />
-      </div>
+      </div> -->
 
       <div class="form-group">
         <label class="form-label">Special Instructions</label>
@@ -70,7 +70,7 @@
         :disabled="!canSubmit"
         @click="submitOrder"
       >
-        <span class="submit-icon">📲</span>
+        <span class="submit-icon"></span>
         Send Order via WhatsApp
       </button>
 
@@ -111,8 +111,8 @@ const form = ref({
 const canSubmit = computed(() =>
   form.value.name.trim() &&
   form.value.phone.trim() &&
-  form.value.orderType &&
   form.value.items.trim()
+  // form.value.orderType &&
 )
 
 function submitOrder() {
